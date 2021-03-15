@@ -1,0 +1,57 @@
+body {
+
+
+ 	background-color: #FFE4C4;
+
+}
+
+div{
+ 	font-size: 1.2em
+
+
+}
+
+
+
+h1,h2{
+ 	color: #000000;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 		
+}
+
+p{
+ 	color: #000000;
+ 	font-weight: bold;
+ 	text-align: justify;
+ 	border-style: double;
+ 	border-color:#800000;
+
+}
+
+ul li{
+ 	color: #000000;
+ 	font-weight: bold;
+ 	text-align: justify;
+ 	border-style: double;
+ 	border-color: #800000;
+
+}
+
+figure{
+ 	text-align: center;
+
+}
+ 	
+img{
+
+ 	width: 50%
+
+ }
+
+a: link{
+ 	color: #800000;
+ 	background-color: transparent;
+ 	text-decoration: underline;
+
+ }
