@@ -2,7 +2,7 @@ body {
 
 
  	background-color: #FFE4C4;
-
+ 	font: arial; 
 }
 
 div{
@@ -26,22 +26,24 @@ p{
  	text-align: justify;
  	border-style: double;
  	border-color:#800000;
+ 	font-size: 20px;
 
 }
 
-ul li{
+ul li, ol li{ 
  	color: #000000;
  	font-weight: bold;
  	text-align: justify;
  	border-style: double;
  	border-color: #800000;
+ 	font-size: 20px;
 
 }
 
 figure{
  	text-align: center;
 
-}
+}	
  	
 img{
 
@@ -55,3 +57,26 @@ a: link{
  	text-decoration: underline;
 
  }
+
+table {
+
+	color: #000000;
+ 	width: 100%; 
+ 	border-collapse: collapse;
+
+}
+
+td, th {
+
+	border: 5px double #800000;
+	padding: 12px; 
+	font-weight: bold;
+ 	text-align: justify;
+ 	font-size: 90%;
+}
+
+
+
+
+
+
