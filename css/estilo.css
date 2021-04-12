@@ -3,15 +3,13 @@ body {
 
  	background-color: #5F9EA0;
  	font-family: arial, Sans-serif;
- 	margin-left: auto;
- 	margin-right: auto;
 }
 
 	.container {
 
-		width: 80%;
 		margin-left: auto;
 		margin-right: auto; 
+		width: 80%;
 }
 
 	header, footer {
@@ -22,7 +20,7 @@ body {
 
 div{
  	font-size: 1.2em
- 	width: 80%;
+ 	width: auto;
 
 
 }
@@ -36,6 +34,7 @@ h1,h2{
  	font-weight: bolder;
  	font-size: 30px;
  	font-family: Courier New, Monospace;
+ 	width: auto;
  		
 }
 
@@ -55,6 +54,7 @@ p{
 		text-align: center; 
 		margin-top: auto;
 		margin-bottom: auto;
+		width: auto;
 	}
 
 ul li, ol li{ 
@@ -63,6 +63,7 @@ ul li, ol li{
  	text-align: justify;
  	font-size: 20px;
  	margin-bottom: 2%;
+ 	width: auto;
 }
 
 figure{
@@ -81,16 +82,16 @@ a: link{
  	color: #800000;
  	background-color: transparent;
  	text-decoration: underline;
- 	width: 100%;
+ 	width: auto;
 
  }
 
 table {
 
-	color: #000000;
- 	width: 100%; 
+	color: #000000; 
  	border-collapse: collapse;
-
+ 	font-size: 20px;
+ 	width: 100%;
 }
 
 td, th {
@@ -99,7 +100,7 @@ td, th {
 	padding: 12px; 
 	font-weight: bold;
  	text-align: justify;
- 	font-size: 110%;
+ 	font-size: 100%;
  	text-align: center;
 }
 
