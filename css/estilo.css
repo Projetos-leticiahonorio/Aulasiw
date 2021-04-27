@@ -1,7 +1,7 @@
 body {
 
 
- 	background-color: #5F9EA0;
+ 	background-color:#A0522D;
  	font-family: arial, Sans-serif;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 	header, footer {
-		background-color: rgba(47,79,79,0.5);
+		background-color: rgba(139,69,19);
 		padding: 5%;
 }
 
@@ -107,12 +107,11 @@ table {
 
 td, th {
 
-	border: 5px double #2F4F4F;
+	border: 5px double #CD853F;
 	padding: 12px; 
  	text-align: center;
 }
-
 tr:nth-child(even) {
-	background: #fff
+	background:#FFDEAD;
 
 }
