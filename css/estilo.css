@@ -1,7 +1,7 @@
 body {
 
 
- 	background-color:#A0522D;
+ 	background-image: linear-gradient(Sienna, Chocolate);
  	font-family: arial, Sans-serif;
 }
 
@@ -20,6 +20,9 @@ body {
 h1{ 
 
 	font-size: 2.5em;
+	color: white;
+  	color: white;
+  	text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -62,15 +65,26 @@ ul li, ol li{
  	text-decoration: underline;
  }
 
+div {
+  background-color: #8B4513;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+ @keyframes example {
+  from {background-color: #8B4513;}
+  to {background-color: #CD853F;}
+}
+
 figure{
  	text-align: center;
 }	
  	
 img{
 
- 	width: 60%
-
+ 	width: 60%;
  }
+
 
 a: link{
  	color: #800000;
