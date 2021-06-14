@@ -190,3 +190,44 @@
 		background:#FFDEAD;
 
 	}
+
+	.col-25 {
+	  border-radius: 5px;
+	  background-color: #803300ff;
+	  padding: 20px;
+	  position: center;
+	}
+
+	input[type=text] {
+	  width: 130px;
+	  box-sizing: border-box;
+	  border: 2px solid #803300ff;
+	  border-radius: 4px;
+	  font-size: 16px;
+	  background-color: #fff;
+	  background-position: 10px 10px; 
+	  background-repeat: no-repeat;
+	  padding: 12px 20px 12px 40px;
+	  transition: width 0.4s ease-in-out;
+	  position: center;
+	}
+
+	input[type=text]:focus {
+	  width: 100%;
+	}
+
+	input[type=submit] {
+	  width: 100%;
+	  background-color: #502d16ff;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  position: center;
+	}
+
+	input[type=submit]:hover {
+	  background-color: #aa4400ff;
+}
