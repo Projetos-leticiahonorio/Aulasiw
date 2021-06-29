@@ -48,35 +48,47 @@
 		position: relative;
 	}
 
-@media screen and (max-width: 599px) {
-	.container{
-		margin-top:65%;}
 	}
 
-@media screen and (min-width: 600px) {
-	.container{
-		margin-top:40%;}
+	#sobre{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin: 0 auto;
 	}
 
-@media only screen and (min-width: 768px) {
-	.container{
-		margin-top:15%;}
+	#sobre .sobre{
+		text-align: center;
+		font-size: 5px;
+	}
 
-		header {
-			flex-direction: row;
-			position: relative;
-		}
+	#galeria{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
 
-		.menu-opcoes {
-			position: absolute;
-			right: 5%;
-			top: 50%;
-		}
+	#galeria .galeria{
+		text-align: center;
+		margin: 50px 50px;
+	}
 
-		.menu-opcoes ul li {
-			display: inline;
-			margin-left: 10px;
-		}
+	.imggaleria{
+		width: 130%;
+		text-align: center;
+	}
+
+	.imgsobre{
+		width: 45%;
+		height: 20%;
+		transition: width 2s, height 2s, transform 2s
+	}
+
+	.imgsobre: hover {
+
+		transform: rotate(180deg);
 	}
 
 	h1{ 
@@ -100,6 +112,10 @@
 	h2{
 	 	font-size: 1.5em;			
 
+	}
+
+	h3{
+		font-size: 3.0em
 	}
 
 	.titulos{
@@ -231,3 +247,71 @@
 	input[type=submit]:hover {
 	  background-color: #aa4400ff;
 }
+
+
+@media screen and (max-width: 599px) {
+	.container{
+		margin-top:65%;}
+	}
+
+@media screen and (min-width: 600px) {
+	.container{
+		margin-top:40%;}
+	}
+
+@media only screen and (min-width: 768px) {
+	.container{
+		margin-top:12%;}
+
+		header {
+			flex-direction: row;
+			position: relative;
+		}
+
+		.menu-opcoes {
+			position: absolute;
+			right: 5%;
+			top: 50%;
+		}
+
+		.menu-opcoes ul li {
+			display: inline;
+			margin-left: 10px;
+		}
+
+		#sobre{
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		#sobre h1, h3{
+			width: 100%;
+			text-align: center;
+		}
+
+		#sobre p{
+			width: 100%;
+			text-align: center;
+		}
+
+		#sobre .sobre {
+			width: 25%;
+			text-align: center;
+			display: inline-block;
+		}
+
+		 #galeria .galeria {
+			width: 25%;
+			text-align: center;
+			display: inline-block;
+		}
+
+		#galeria{
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		#galeria p{
+			text-align: center;
+		}
+	}
